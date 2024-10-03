@@ -1,0 +1,40 @@
+Running main() from /home/santi/Downloads/AyED2-Labo01/tests/gtest-1.8.1/gtest_main.cc
+[==========] Running 11 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 4 tests from Fecha
+[ RUN      ] Fecha.init
+[       OK ] Fecha.init (13 ms)
+[ RUN      ] Fecha.ostream
+[       OK ] Fecha.ostream (4 ms)
+[ RUN      ] Fecha.igualdad
+[       OK ] Fecha.igualdad (5 ms)
+[ RUN      ] Fecha.incrementar
+[       OK ] Fecha.incrementar (10 ms)
+[----------] 4 tests from Fecha (44 ms total)
+
+[----------] 3 tests from Horario
+[ RUN      ] Horario.init
+[       OK ] Horario.init (3 ms)
+[ RUN      ] Horario.ostream
+[       OK ] Horario.ostream (5 ms)
+[ RUN      ] Horario.comparacion
+[       OK ] Horario.comparacion (3 ms)
+[----------] 3 tests from Horario (12 ms total)
+
+[----------] 1 test from Recordatorio
+[ RUN      ] Recordatorio.ostream
+[       OK ] Recordatorio.ostream (5 ms)
+[----------] 1 test from Recordatorio (5 ms total)
+
+[----------] 3 tests from Agenda
+[ RUN      ] Agenda.ordenado
+[       OK ] Agenda.ordenado (40 ms)
+[ RUN      ] Agenda.desordenado
+[       OK ] Agenda.desordenado (6 ms)
+[ RUN      ] Agenda.cambio_dia
+[       OK ] Agenda.cambio_dia (8 ms)
+[----------] 3 tests from Agenda (55 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 4 test cases ran. (165 ms total)
+[  PASSED  ] 11 tests.

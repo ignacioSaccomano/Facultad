@@ -1,6 +1,0 @@
-/Users/ignaciosaccomano/Facultad/taller_lista_enlazada/cmake-build-debug/CMakeFiles/gtest.dir
-/Users/ignaciosaccomano/Facultad/taller_lista_enlazada/cmake-build-debug/CMakeFiles/gtest_main.dir
-/Users/ignaciosaccomano/Facultad/taller_lista_enlazada/cmake-build-debug/CMakeFiles/correrTests.dir
-/Users/ignaciosaccomano/Facultad/taller_lista_enlazada/cmake-build-debug/CMakeFiles/correrValgrind.dir
-/Users/ignaciosaccomano/Facultad/taller_lista_enlazada/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ignaciosaccomano/Facultad/taller_lista_enlazada/cmake-build-debug/CMakeFiles/rebuild_cache.dir

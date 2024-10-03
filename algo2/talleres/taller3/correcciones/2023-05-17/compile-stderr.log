@@ -1,0 +1,7 @@
+In file included from ../../../../../taller3/conjunto-tests.cpp:1:
+../../../../../taller3/google-test/gtest-1.8.1/gtest.h: In instantiation of ‘testing::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = unsigned int; T2 = int]’:
+../../../../../taller3/google-test/gtest-1.8.1/gtest.h:21235:23:   required from ‘static testing::AssertionResult testing::internal::EqHelper<lhs_is_null_literal>::Compare(const char*, const char*, const T1&, const T2&) [with T1 = unsigned int; T2 = int; bool lhs_is_null_literal = false]’
+../../../../../taller3/conjunto-tests.cpp:10:5:   required from here
+../../../../../taller3/google-test/gtest-1.8.1/gtest.h:21207:11: warning: comparison of integer expressions of different signedness: ‘const unsigned int’ and ‘const int’ [-Wsign-compare]
+21207 |   if (lhs == rhs) {
+      |       ~~~~^~~~~~

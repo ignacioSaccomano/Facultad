@@ -1,0 +1,30 @@
+In file included from ./string_map.h:110,
+                 from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.hpp: In instantiation of ‘string_map<T>& string_map<T>::operator=(const string_map<T>&) [with T = int]’:
+./string_map.hpp:11:80:   required from ‘string_map<T>::string_map(const string_map<T>&) [with T = int]’
+../../../../../taller4/string_map_tests.cpp:98:39:   required from here
+./string_map.hpp:24:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   23 | 
+  +++ |+return *this;
+   24 | }
+      | ^
+./string_map.hpp: In instantiation of ‘int string_map<T>::buscarDato(const string&) [with T = int; std::string = std::__cxx11::basic_string<char>]’:
+./string_map.hpp:98:33:   required from ‘void string_map<T>::erase(const string&) [with T = int; std::string = std::__cxx11::basic_string<char>]’
+../../../../../taller4/string_map_tests.cpp:178:20:   required from here
+./string_map.hpp:197:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<std::__cxx11::basic_string<char>, int>, std::allocator<std::pair<std::__cxx11::basic_string<char>, int> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  197 |     for (int i = 0; i < datos.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~
+./string_map.hpp: In instantiation of ‘int string_map<T>::buscarDato(const string&) [with T = string_map<int>; std::string = std::__cxx11::basic_string<char>]’:
+./string_map.hpp:98:33:   required from ‘void string_map<T>::erase(const string&) [with T = string_map<int>; std::string = std::__cxx11::basic_string<char>]’
+./string_map.hpp:165:9:   required from ‘void string_map<T>::eliminarTodos() [with T = string_map<int>]’
+./string_map.hpp:28:5:   required from ‘string_map<T>::~string_map() [with T = string_map<int>]’
+../../../../../taller4/string_map_tests.cpp:141:33:   required from here
+./string_map.hpp:197:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<std::__cxx11::basic_string<char>, string_map<int> >, std::allocator<std::pair<std::__cxx11::basic_string<char>, string_map<int> > > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+./string_map.hpp: In member function ‘int string_map<T>::buscarDato(const string&) [with T = int]’:
+./string_map.hpp:203:1: warning: control reaches end of non-void function [-Wreturn-type]
+  203 | }
+      | ^
+./string_map.hpp: In member function ‘int string_map<T>::buscarDato(const string&) [with T = string_map<int>]’:
+./string_map.hpp:203:1: warning: control reaches end of non-void function [-Wreturn-type]
+  203 | }
+      | ^
